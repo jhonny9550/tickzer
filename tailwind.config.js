@@ -7,7 +7,7 @@ export default {
 				center: true
 			},
 			fontFamily: {
-				sans: ['Avalon', 'sans-serif']
+				sans: ['Rubik', 'sans-serif']
 			}
 		}
 	},
