@@ -1,0 +1,33 @@
+@layer base {
+	@font-face {
+		font-family: 'Avalon';
+		src: local('Avalon'), url('/fonts/Avalon.ttf');
+		font-display: swap;
+		font-weight: normal;
+	}
+
+	html {
+		@apply text-sm sm:text-base xl:text-lg;
+	}
+
+	h1 {
+		@apply text-2xl sm:text-3xl xl:text-4xl;
+	}
+
+	h2 {
+		@apply text-xl sm:text-2xl xl:text-3xl;
+	}
+
+	h3 {
+		@apply text-lg sm:text-xl xl:text-2xl;
+	}
+
+	label,
+	a {
+		@apply text-xs sm:text-sm xl:text-base;
+	}
+
+	a {
+		@apply text-secondary no-underline;
+	}
+}

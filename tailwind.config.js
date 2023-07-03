@@ -5,11 +5,14 @@ export default {
 		extend: {
 			container: {
 				center: true
+			},
+			fontFamily: {
+				sans: ['Avalon', 'sans-serif']
 			}
 		}
 	},
 	plugins: [require('daisyui')],
 	daisyui: {
-		themes: ['aqua']
+		themes: ['emerald']
 	}
 };

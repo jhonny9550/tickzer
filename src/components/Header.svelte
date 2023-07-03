@@ -1,13 +1,15 @@
 <script>
-	import Logo from './Logo.svelte';
+	import Logo from '$components/Logo.svelte';
+	import Searchbar from '$components/Searchbar.svelte';
 </script>
 
 <header class="fixed inset-x-0 top-0 z-10">
-	<nav class="navbar bg-base-100">
+	<nav class="navbar bg-secondary text-secondary-content">
 		<div class="flex-1">
 			<Logo />
 		</div>
 		<div class="flex-none gap-2">
+			<Searchbar />
 			<div class="dropdown dropdown-end">
 				<label for="" tabindex="-1" class="btn btn-ghost btn-circle avatar">
 					<div class="w-10 rounded-full">
@@ -16,7 +18,7 @@
 				</label>
 				<ul
 					tabindex="-1"
-					class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+					class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-secondary text-secondary-content rounded-box w-52"
 				>
 					<li>
 						<a class="justify-between" href="#q">

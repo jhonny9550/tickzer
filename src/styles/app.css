@@ -2,7 +2,12 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* Base */
 @import './base/variables.css';
+@import './base/typography.css';
+
+/* Components */
+@import './components/button.css';
 
 @layer base {
 	html,
@@ -11,7 +16,6 @@
 	}
 
 	main {
-		margin-top: var(--header-height);
 		@apply flex-grow bg-slate-100;
 	}
 }
