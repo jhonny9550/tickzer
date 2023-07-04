@@ -21,7 +21,7 @@
 				</div>
 				<div class="mt-8 flex flex-col gap-2">
 					<button class="btn btn-secondary btn-block">Log in</button>
-					<button class="btn btn-tertiary btn-block bg-white">
+					<button class="btn btn-block bg-white">
 						<iconify-icon icon="logos:google-icon" class="text-xl" />
 						Sign in with Google
 					</button>
