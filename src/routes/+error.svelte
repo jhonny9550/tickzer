@@ -6,7 +6,7 @@
 
 <div class="container p-14">
 	{#if $page.status === 404}
-		<NotFound message={$page.error?.message} />
+		<NotFound />
 	{:else}
 		<ErrorFallback message={$page.error?.message} />
 	{/if}

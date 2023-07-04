@@ -1,0 +1,5 @@
+@layer components {
+	.auth-card {
+		@apply bg-white shadow-lg rounded-lg text-center overflow-hidden min-w-[450px];
+	}
+}
