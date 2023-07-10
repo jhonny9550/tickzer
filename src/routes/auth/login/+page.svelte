@@ -3,11 +3,17 @@
 	import GoogleButton from '$components/Auth/GoogleButton.svelte';
 	import Checkbox from '$components/Checkbox.svelte';
 	import Input from '$components/Input.svelte';
+	import { error } from '@sveltejs/kit';
 	import 'iconify-icon';
 	import ROUTES from '../..';
 
 	const handleGoogleLogin = () => {
 		console.log('Google login');
+		throw error(404, {
+			code: 'not-found',
+			message: 'Not found',
+			id: '123'
+		});
 	};
 </script>
 
@@ -30,11 +36,11 @@
 			</form>
 		</div>
 		<div class="p-4">
-			<div class="text-center text-sm flex justify-center gap-2">
+			<span class="flex justify-center gap-2 label-text">
 				Don't have an account yet? <a class="link link-hover font-medium" href={ROUTES.SIGNUP}
 					>Sign Up</a
 				>
-			</div>
+			</span>
 		</div>
 	</div>
 </div>

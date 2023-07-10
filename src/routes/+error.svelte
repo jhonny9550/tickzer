@@ -4,7 +4,7 @@
 	import NotFound from '$components/ErrorPages/NotFound.svelte';
 </script>
 
-<div class="container p-14">
+<div class="p-14 bg-shapes flex-grow">
 	{#if $page.status === 404}
 		<NotFound />
 	{:else}
