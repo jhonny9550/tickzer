@@ -1,0 +1,7 @@
+@layer components {
+	.input {
+		&:focus {
+			@apply outline-none;
+		}
+	}
+}

@@ -9,14 +9,16 @@
 /* Components */
 @import './components/button.css';
 @import './components/card.css';
+@import './components/input.css';
 
 /* Utilities */
 @import './utilities/background.css';
+@import './utilities/flex.css';
 
 @layer base {
 	html,
 	body {
-		@apply min-h-screen;
+		@apply h-full;
 	}
 
 	main {
@@ -27,5 +29,5 @@
 .root {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	height: 100%;
 }

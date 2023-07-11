@@ -5,7 +5,9 @@ const ROUTES = {
 	SIGNUP: '/auth/signup',
 	FORGOT_PASSWORD: '/auth/forgot-password',
 	TERMS_PRIVACY: '/terms-privacy',
-	SUPPORT: 'mailto:support@tickzer.com' // TODO: Change this to the FAQs page when it's ready
+	SUPPORT: 'mailto:support@tickzer.com', // TODO: Change this to the FAQs page when it's ready
+	PROFILE: '/profile',
+	SETTINGS: '/settings'
 } as const;
 
 export default ROUTES;

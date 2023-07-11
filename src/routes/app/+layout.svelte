@@ -1,8 +1,12 @@
 <script>
-	import Header from '$components/Header.svelte';
+	import Navbar from '$components/Navbar.svelte';
+	import Sidebar from '$components/Sidebar.svelte';
 </script>
 
-<Header />
-<main>
-	<slot />
+<Navbar />
+<main class="flex">
+	<Sidebar />
+	<div class="flex-grow">
+		<slot />
+	</div>
 </main>

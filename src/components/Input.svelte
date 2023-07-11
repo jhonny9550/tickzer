@@ -1,8 +1,10 @@
 <script lang="ts">
+	import { generateUid } from '../utils/uid.utils';
+
 	export let classes: { root?: string; label?: string; input?: string } = {};
 	export let label: string;
 	export let type: string = 'text';
-	const inputId = `input-${Math.random().toString(36).substring(7)}`;
+	const inputId = generateUid('input');
 </script>
 
 <div class={`form-control ${classes?.root}`}>
