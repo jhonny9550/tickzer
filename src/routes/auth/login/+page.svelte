@@ -1,4 +1,5 @@
 <script lang="ts">
+	import AuthCard from '$components/Auth/AuthCard.svelte';
 	import AuthCardHeader from '$components/Auth/AuthCardHeader.svelte';
 	import GoogleButton from '$components/Auth/GoogleButton.svelte';
 	import Checkbox from '$components/Checkbox.svelte';
@@ -18,7 +19,7 @@
 </script>
 
 <div class="container flex items-center justify-center min-h-screen">
-	<div class="auth-card">
+	<AuthCard>
 		<AuthCardHeader title="Hello Tickzeter!" />
 		<div class="p-9">
 			<p class="mt-4">We are happy to have you here! <br /> Please enter your details to log in.</p>
@@ -42,5 +43,5 @@
 				>
 			</span>
 		</div>
-	</div>
+	</AuthCard>
 </div>
