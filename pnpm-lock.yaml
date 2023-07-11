@@ -8,6 +8,9 @@ dependencies:
   appwrite:
     specifier: ^11.0.0
     version: 11.0.0
+  clsx:
+    specifier: ^1.2.1
+    version: 1.2.1
   iconify-icon:
     specifier: ^1.0.8
     version: 1.0.8
@@ -877,6 +880,11 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
+
+  /clsx@1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
+    dev: false
 
   /code-red@1.0.3:
     resolution: {integrity: sha512-kVwJELqiILQyG5aeuyKFbdsI1fmQy1Cmf7dQ8eGmVuJoaRVdwey7WaMknr2ZFeVSYSKT0rExsa8EGw0aoI/1QQ==}

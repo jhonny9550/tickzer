@@ -39,6 +39,7 @@
 	"type": "module",
 	"dependencies": {
 		"appwrite": "^11.0.0",
+		"clsx": "^1.2.1",
 		"iconify-icon": "^1.0.8"
 	}
 }
