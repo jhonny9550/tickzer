@@ -6,7 +6,7 @@
 <Navbar />
 <main class="flex">
 	<Sidebar />
-	<div class="flex-grow">
+	<div class="flex-grow transition-all duration-300 ease-in-out">
 		<slot />
 	</div>
 </main>

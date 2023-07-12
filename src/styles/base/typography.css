@@ -20,6 +20,10 @@
 		@apply text-lg sm:text-xl xl:text-2xl;
 	}
 
+	p.subheading-1 {
+		@apply text-base sm:text-lg xl:text-xl;
+	}
+
 	label,
 	a {
 		@apply text-xs sm:text-sm xl:text-base;

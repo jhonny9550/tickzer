@@ -8,6 +8,9 @@ export default {
 			},
 			fontFamily: {
 				sans: ['Rubik', 'sans-serif']
+			},
+			transitionProperty: {
+				width: 'width'
 			}
 		}
 	},
